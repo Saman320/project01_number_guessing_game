@@ -16,7 +16,7 @@ const {userGuess} = userNumber;
 
     console.log("Your Guess: ", userGuess , "\nSyestem Guess: ", systemNumber);
   
-    if (userGuess === userNumber) {
+    if (userGuess === systemNumber) {
       console.log("Your Guess is Correct \nYou Won");
     } else {
       console.log("Better luck Next Time");
